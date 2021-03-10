@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    background: #E3B84F;
+    color: white;
+    text-align:center;
+    width:100%;
+    margin-bottom:100px;
+    font-weight:400;
+}
+
+h1 {
+    font-size:3.5em;
+    font-family:'ribeye marrow',fantasy,sans-serif;
+    margin:20px;
+    padding:30px;
+    text-shadow: 2px 2px black;
+
+}
+
+h2 {
+    font-size:2em;
+    font-family:'sarala',cursive,sans-serif;
+    margin:10px;
+    padding:40px;
+    font-style:italic;
+    color:black;
+}
+
+p{
+    font-size:1.5em;
+    font-family:'sarala',fantasy,sans-serif;
+    color:white;
+    text-align:left;
+    margin:30px;
+}
+a{
+    text-decoration:none;
+    font-style:none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color:white;
+    text-align: center;
+}
+
+nav ul {
+    padding:5px;
+    display:flex;
+    font-family:'yusei magic',fantasy,sans-serif;
+    text-align: center;
+}
+
+nav li {
+    padding:2px;
+    margin:2px;
+    display:inline-block;
+    background-color:rgb(227, 168, 100);
+    font-size:1.5em;
+    width:100%;
+    border-radius: 20px;;
+
+
+}
+
+
+section{
+    background:rgb(227, 168, 100);
+    border-top: 5px dashed gray;
+}
+
+footer {
+    margin:10px;
+    font-size: 15px;
+    font-family:'Nanum Gothic',cursive,sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul{
+    background-color: #E3B84F;
+    align-items: center;
+    display:flex;
+
+}
+footer li{
+    margin:10px;
+    display:flex;
+    width:100%;
+    display:inline-block;
+}
+
+footer img{
+    width:20px;
+}
+
+
+.footheader{
+    padding:10px;
+    border: 6px solid #c2dd92;
+    font-size: 20px;
+    color:white;
+    border-radius: 10px;
+}
+.figure{
+    width:120px;
+    margin:auto;
+    padding:auto;
+}
+.data{
+    font-size:15px;
+}
+#beforeafter{
+    display:flex;
+    align-items:center;
+}
+#before{
+    border-right: 5px dashed gray;;
+    border-top: 5px dashed gray;
+    text-align: center;
+}
+#after{
+    border-top: 5px dashed gray;
+}
+
+
+@media screen and (max-width: 700px) {
+  footer ul{
+    flex-flow: column;
+    padding: 0;
+  }
