@@ -26,6 +26,14 @@ h2 {
     color:black;
 }
 
+h3 {
+    font-size:1.75em;
+    padding:10px;
+    font-family:'yusei magic',fantasy,sans-serif;
+    background:rgb(227, 168, 100);
+
+}
+
 p{
     font-size:1.5em;
     font-family:'sarala',fantasy,sans-serif;
@@ -41,6 +49,9 @@ a{
 
 a:hover {
     text-decoration: underline;
+}
+a::selection
+{    color:black;
 }
 
 nav {
@@ -63,19 +74,15 @@ nav li {
     font-size:1.5em;
     width:100%;
     border-radius: 20px;;
-
-
 }
 
-
-section{
-    background:rgb(227, 168, 100);
-}
 
 footer {
-    margin:10px;
     font-size: 20px;
     font-family:'Sarala',cursive,sans-serif;
+    padding:5px;
+    height:15px;
+    border-top: solid 10px white;
 }
 footer a{
     text-decoration: none;
@@ -92,7 +99,6 @@ footer ul{
 
 }
 footer li{
-    margin:10px;
     display:flex;
     width:100%;
     display:inline-block;
@@ -120,21 +126,82 @@ footer img{
 }
 
 #beforeafter{
-    display:inline-block;
+    display:grid;
+    grid-template-columns: 2fr 2fr;
     align-items:center;
     text-align:center;
 }
 #before{
-    border-bottom: 5px dashed #c2dd92;
+    border:6px;
+    border-style: dashed;
+    border-color: #c2dd92;
     text-align: center;
     display:inline-block;
 }
 #after{
+    border:6px;
+    border-style: dashed;
+    border-color: #c2dd92;
     text-align: center;
     display:inline-block;
 }
+#test{
+    font-size:1.5em;
+    font-family:'sarala',fantasy,sans-serif;
+    text-align:left;
+    text-decoration:none;
 
+}
+.comment{
+    font-size:15px;
+    background-color:gray;
+    display:inline-block;
+}
+.question {
+    color:black;
+}
+.answer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.answer li{
+    font-size: 0.9em;
+    display:inline-block;
+    background-color: white;
+    margin:30px;
 
+    padding:10px;
+    align-self: center;
+    color:rgb(227, 168, 100);
+    border-radius: 20px;
+    font-family:'yusei magic',fantasy,sans-serif;
+    align-self:center;
+    border:solid 5px rgb(227, 168, 100);
+
+}
+#submit{
+    font-size:1.5em;
+    background-color:rgb(227, 168, 100);
+    font-family:'ribeye marrow',fantasy,sans-serif;
+    text-align: center;
+    padding:10px;
+    margin:50px;
+    display:inline-block;
+
+}
+.active {
+    background-color:white;
+    border:solid 3px rgb(227, 168, 100);
+}
+.active a{
+    color:rgb(227, 168, 100);
+
+}
+#racial_disparity_chart{
+    width:100%;
+    display:flex;
+}
 @media screen and (max-width: 700px) {
   footer ul{
     flex-flow: column;
