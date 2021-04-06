@@ -46,11 +46,9 @@ a{
     font-style:none;
     color:black;
 }
-ol:hover{
-    text-decoration:none;
-}
+
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 a::selection
 {    color:black;
@@ -81,6 +79,10 @@ nav li {
 nav a {
     color:white;
     text-align: center;
+}
+
+nav a:hover{
+    text-decoration: underline;
 }
 
 
@@ -158,8 +160,8 @@ footer img{
     font-family:'sarala',fantasy,sans-serif;
     text-align:left;
     text-decoration:none;
-
 }
+
 .comment{
     font-size:15px;
     background-color:gray;
@@ -168,10 +170,12 @@ footer img{
 .question {
     color:black;
 }
+
 .answer{
     display:grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
 }
+
 .answer li{
     font-size: 0.9em;
     background-color: white;
