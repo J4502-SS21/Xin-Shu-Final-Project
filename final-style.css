@@ -30,14 +30,15 @@ h3 {
     padding:10px;
     font-family:'yusei magic',fantasy,sans-serif;
     background:#90c8d6;
+    color:white;
 }
 
 p {
-    font-size:1.5em;
+    font-size:1.25em;
     font-family:'sarala',fantasy,sans-serif;
     color:black;
     text-align:left;
-    margin:30px;
+    margin:45px 70px;
 }
 
 a {
@@ -47,7 +48,7 @@ a {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 nav {
@@ -84,6 +85,7 @@ footer {
     font-size: 20px;
     font-family:'Sarala',cursive,sans-serif;
     height:15px;
+    margin-top:110px;
 }
 
 footer a {
@@ -169,10 +171,8 @@ footer img {
     margin:30px;
 }
 
-.comment {
-    font-size:15px;
-    background-color:gray;
-    display:inline-block;
+#quiz-explanation {
+    margin: 60px 200px;
 }
 
 .question {
@@ -207,17 +207,16 @@ li.answer3 {
     padding-bottom:20px;
 }
 
-#submit {
+.banner {
     font-size:1.5em;
     background-color:#90c8d6;
     text-shadow: grey 2px 2px;
     font-family:'Secular One',fantasy,sans-serif;
     text-align: center;
     padding:20px;
-    margin:50px;
+    margin-bottom:50px;
     display:inline-block;
     color:white;
-    text-transform: capitalize;
 }
 
 .active {
@@ -229,9 +228,33 @@ li.answer3 {
     color:#90c8d6;
 }
 
-#racial_disparity_chart {
-    width:100%;
-    display:flex;
+.tips {
+    font-size:2em;
+    text-align:center;
+    font-weight:bold;
+    }
+
+.advice-img {
+    align-self: center;
+    width:550px;
+}
+
+.reference {
+    text-align: right;
+    margin-bottom:60px;
+    font-size: 20px;
+}
+
+.policy {
+    text-align: center;
+}
+
+#mental-survey img {
+    width:900px;
+}
+
+#chart{
+    margin:100px;
 }
 
 @media screen and (max-width: 1020px) {

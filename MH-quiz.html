@@ -25,9 +25,12 @@
             <li class='active'><a href="MH-quiz.html" >Test yourself</a></li>
         </ul>
     </nav>
-    <h2>How are you doing during the pandemic?</h2>
-    <p>The quiz is only for pointing you in the right direction. It's not a medical assessment - if you are worried about your mental health you should turn to professional help.<br>Questions are from <a href=https://screening.mhanational.org/ target="_blank">Mental Health America<a>, <a href=https://greatergood.berkeley.edu/ target="_blank">Greater Good Magazine<a> and <a href=https://cmha.ca/ target="_blank">Canadian Mental Health Association.<a></p>
-    <p class='comment'>when I move my mouse here, the question is underlined. I don't know how to cancel it.<br>I want the test to be a form, i don't know how to use form yet. </p>
+    <h2>How are you feeling?</h2>
+    <p id='quiz-explanation'>
+        This is a self-assessment quiz for your mental wellbeing. The quiz is not a medical assessment - if you are worried about your mental health or find you in an unhealthy mental state you should turn to professional help. It is only for pointing you in the right direction.<br>
+        It is also suggested that you write down your answers on a piece of paper. If you choose "not at all",  write down A. If you choose "several days",  write down B. If you choose "more than half the days",  write down C. If you choose "everyday",  write down D.<br>
+        The quiz questions are gathered from <a href=https://screening.mhanational.org/ target="_blank">Mental Health America</a>, <a href=https://greatergood.berkeley.edu/ target="_blank">Greater Good Magazine</a> and <a href=https://cmha.ca/ target="_blank">Canadian Mental Health Association.</a>
+    </p>
     <ol id='test'>
         <li class='question'>Feeling nervous, anxious or on ege</li>
         <ul class='answer'>
@@ -92,14 +95,14 @@
             <li class='answer3'>more than half the days</li>
             <li>everyday</li>
         </ul>
-        <li class='question'>I try to be loving towards myself when I'm feeling emotional pain.</li>
+        <li class='question'>I don't try to be loving towards myself when I'm feeling emotional pain.</li>
         <ul class='answer'>
             <li>not at all</li>
             <li>several days</li>
             <li class='answer3'>more than half the days</li>
             <li>everyday</li>
         </ul>
-        <li class='question'>When things are going badly for me, I see the difficulties as part of life that everyone goes through.</li>
+        <li class='question'>When things are going badly for me, I don't see the difficulties as part of life that everyone goes through.</li>
         <ul class='answer'>
             <li>not at all</li>
             <li>several days</li>
@@ -129,8 +132,10 @@
         </ul>
     </ol>
 
-    <p id='submit'>see your score</p>
-
+    <p class='banner'>How many A, B, C, and D did you get?</p>
+    <p id='quiz-explanation'>If you mostly get A or B, Congratulate! You are taking good care of your mental wellbeing. <br>
+        More C or D indicate that you need to pay more attention to your mental health. It is suggested that you take close look at our <a href="MH-advice.html">advice page</a>.
+    </p>
     <footer>
         <ul id='footer'>
             <li><span class='footheader'>Contact</span></li>
