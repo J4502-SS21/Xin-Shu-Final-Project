@@ -265,6 +265,10 @@ li.answer3 {
     margin:100px;
 }
 
+#dropdownMenu {
+    border:0px;
+}
+
 @media screen and (max-width: 1020px) {
 
     #footer {
@@ -314,7 +318,7 @@ li.answer3 {
         display:block;
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 0px;
     }
 
     #menu_nav{
