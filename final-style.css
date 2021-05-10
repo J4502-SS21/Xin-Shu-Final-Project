@@ -171,6 +171,18 @@ footer img {
     margin:30px;
 }
 
+#menu_nav {
+    list-style-type:none;
+    display:flex;
+    justify-content: flex-end;
+    text-transform:uppercase;
+    margin:2px;
+
+}
+
+#menu_trigger {
+    display:none;
+}
 .question {
     color:black;
 }
@@ -187,10 +199,10 @@ footer img {
     background-color: white;
     margin:30px;
     padding:10px;
-    color:#90c8d6;
+    color:#1189a7;
     border-radius: 20px;
     font-family:'yusei magic',fantasy,sans-serif;
-    border:solid 2px #90c8d6;
+    border:solid 2px #1189a7;
     list-style: none;
     text-align:center;
     align-self:center;
@@ -232,7 +244,7 @@ li.answer3 {
 
 .advice-img {
     align-self: center;
-    width:550px;
+    width:50%;
 }
 
 .reference {
@@ -246,7 +258,7 @@ li.answer3 {
 }
 
 #mental-survey img {
-    width:900px;
+    width:70%;
 }
 
 #chart{
@@ -296,5 +308,17 @@ li.answer3 {
           margin:5px;
           min-width:300px;
           height:30px;
+    }
+
+    #menu_trigger {
+        display:block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    #menu_nav{
+        display:none;
+        flex-direction: column;
     }
 }
